@@ -1,2 +1,2 @@
 # activebox-page-project
-Activebox landing page project (BEM, HTML, CSS, Gulp)
+Activebox landing page project (Twitter Bootstrap, HTML, CSS, Gulp)
