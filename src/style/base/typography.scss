@@ -1,66 +1,28 @@
-// @font-face {
-//   font-family: 'Gotham';
-//   src:  url('../font/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
-//         url('../font/GothamPro-Medium.otf') format('opentype'),
-//         url('../font/GothamPro-Medium.woff') format('woff'),
-//         url('../font/GothamPro-Medium.ttf') format('truetype'),
-//         url('../font/GothamPro-Medium.svg#font/GothamPro-Medium') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"),
+             url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+             url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
-// @base-font: Arial, sans-serif;
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"),
+             url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+             url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
-// body {
-//     font-family: Arial, sans-serif;
-//     font-size: 15px;
-//     line-height: em(22px);
-//     color: #333;
-// }
 
+$base-font-size: 12;
 
-// h1{
+@function rem($size) {
+    $remSize: $size / $base-font-size;
+    @return #{$remSize}rem;
+}
 
-// }
-
-// h2{
-
-// }
-
-// h3{
-
-// }
-
-// h4{
-
-// }
-
-// p,
-// li,
-// span{
-
-// }
-
-// strong,
-// b{
-//   font-weight: 600;
-// }
-
-// a{
-
-//   &:hover{
-
-//   }
-// }
-
-// ul{
-//     li{
-
-//     }
-// }
-
-// table{
-//   td{
-
-//   }
-// }

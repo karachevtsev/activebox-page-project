@@ -8,22 +8,175 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+    .work-item {
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .team-item {
+        margin-bottom: 30px;
+        text-align: center;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .clients {
+
+         .comment {
+            padding: 30px 5%;
+
+            .comment-text {
+                font-size: rem(32);
+                line-height: rem(38);
+            }
+        }
+    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+    header {
+
+        nav {
+            position: fixed;
+            height: 60px;
+            line-height: 60px;
+            background-color: #2a2e48;
+        }
+
+        .logo {
+            padding-top: 15px;
+        }
+
+        .menu {
+            text-align: center;
+            li {
+                display: block;
+
+                a {
+                    display: block;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-family: $font-regular;
+                    font-size: rem(13);
+                    &:hover,
+                    &:focus {
+                        text-decoration: none;
+                        color: $color-btn--hover;
+                    }
+                }
+            }
+        }
+
+        .btn-menu {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: $color-btn;
+            color: white;
+            span {
+                position: absolute;
+                margin: auto;
+                top: 13px;
+                left: 0;
+                bottom: 0;
+                right: 0
+            }
+        }
+
+        .top-line {
+            display: none;
+        }
+
+        #top-menu {
+            background-color: #2a2e48;
+            opacity: 0.75;
+            padding: 20px 0;
+        }
+
+        .intro {
+            margin-top: 140px;
+        }
+    }
+
+    footer {
+
+        .main-footer {
+            padding: 40px 0;
+
+            .footer-item {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    #dlForm {
+        width: 100%;
+    }
+
+    .btn-call {
+        z-index: 111;
+        top: 8px;
+        right: 60px;
+    }
+
+    .clients {
+
+         .comment {
+            text-align: center;
+        }
+    }
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    header {
+        height: 540px;
+
+        nav {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .intro {
+        h1 {
+            font-size: rem(30);
+            line-height: rem(45);
+        }
+
+        p {
+            font-size: rem(14);
+            line-height: rem(24);
+        }
+    }
+
+    .download {
+
+        .download-item {
+
+            h5 {
+                font-size: rem(22);
+                // line-height: rem(21);
+            }
+        }
+    }
+
+}
+
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+
 
 
 }

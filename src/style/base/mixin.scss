@@ -1,0 +1,16 @@
+@mixin text-column {
+    font: {
+        family: Arial;
+        size: 14px;
+        height: 21px;
+    }
+    color: #6c7279;
+}
+
+
+// @function rem-calc($size) {
+//   $remSize: $size / $base-font-size;
+// //Default font size on html element is 100%, equivalent to 16px;
+//   @return #{$remSize}rem;
+// }
+

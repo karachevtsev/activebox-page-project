@@ -1,0 +1,304 @@
+// html { font-size: 100%; }
+
+body {
+    font-family: $font-regular;
+    font-size: rem(12);
+    min-width: 320px;
+}
+
+.p0 {
+    padding: 0;
+}
+
+
+// Start Features section style
+.features {
+    padding: 90px 0;
+    text-align: center;
+
+    .features-item {
+        margin-bottom: 30px;
+        i {
+            font-size: rem(70);
+            color: $color-btn;
+        }
+
+        h3 {
+            color: #2d3033;
+            font-family: $font-bold;
+            font-size: rem(14);
+            text-transform: uppercase;
+        }
+
+        p {
+            color: #6c7279;
+            font-family: $font-regular;
+            font-size: rem(14);
+            line-height: rem(21);
+        }
+    }
+
+}
+// End Features section style
+
+
+// Start Works section style
+.works {
+    position: relative;
+
+    .work-item {
+        &:hover .image-blind {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .image-blind {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(232, 69, 69, 0.9);
+            opacity: 0;
+
+            .work-descr {
+                text-align: center;
+                margin: auto;
+
+                h4 {
+                    color: white;
+                    font-family: $font-bold;
+                    font-size: rem(14);
+                    text-transform: uppercase;
+                }
+
+                 p {
+                    color: white;
+                    font-family: $font-regular;
+                    font-size: rem(14);
+                }
+            }
+        }
+    }
+}
+// End Works section style
+
+
+// Start Team section style
+.team {
+    padding: 90px 0;
+
+    .team-item {
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            color: #2d3033;
+            font-family: $font-regular;
+            font-size: rem(22);
+        }
+
+        span {
+            color: #e84545;
+            font-family: $color-btn;
+            font-size: rem(13);
+            text-transform: uppercase;
+        }
+
+        p {
+            padding: 20px 0;
+            color: #6c7279;
+            font-family: $font-regular;
+            font-size: rem(14);
+            line-height: rem(21);
+        }
+
+        .social {
+
+            .social-link {
+                display: inline-flex;
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                border: 1px solid #e8ecee;
+                color: #c6cacc;
+                &:hover {
+                    text-decoration: none;
+                    border: 1px solid #2d3033;
+                    color: #2d3033;
+                }
+
+                i {
+                   margin: auto;
+                }
+            }
+        }
+    }
+
+}
+// End Team section style
+
+// Start Download section style
+.download {
+    padding-bottom: 90px;
+
+    .download-item {
+        text-align: center;
+
+        h5 {
+            color: #2d3033;
+            font-family: $font-regular;
+            font-size: rem(23);
+            line-height: rem(28);
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #2d3033;
+            font-family: $font-bold;
+            font-size: rem(13);
+            line-height: rem(21);
+            text-transform: uppercase;
+            margin-bottom: 35px;
+        }
+    }
+}
+// End Download section style
+
+// Start Footer style
+footer {
+
+    .main-footer {
+        padding: 70px 0;
+        text-align: center;
+        background-color: $color-main;
+
+        .footer-item {
+
+            h5 {
+                text-transform: uppercase;
+                color: white;
+                font-family: $font-bold;
+                font-size: rem(14);
+                margin-bottom: 15px;
+            }
+
+            p {
+                opacity: 0.5;
+                color: white;
+                font-family: $font-regular;
+                font-size: rem(14);
+                line-height: rem(23);
+            }
+
+            .social {
+
+                .social-link {
+                    display: inline-flex;
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid white;
+                    border-radius: 2px;
+                    color: white;
+                    margin-right: 7px;
+                    &:hover {
+                        text-decoration: none;
+                        opacity: 0.5;
+                    }
+
+                    i {
+                       margin: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyrigt {
+        padding: 30px 0;
+        text-align: center;
+        background-color: $color-secondary;
+
+        .copyrigt-item {
+            font-family: $font-regular;
+            font-size: rem(14);
+            line-height: rem(28);
+            color: grey;
+
+            i {
+                color: $color-btn;
+            }
+
+            span {
+                color: white;
+            }
+        }
+    }
+}
+// End Footer style
+
+// Start Modal Form style
+#dlForm {
+    width: 70%;
+    margin: 0 auto;
+
+    input {
+        margin-bottom: 15px;
+    }
+}
+// End Modal Form style
+
+// Start Request Call Button style
+.btn-call {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: $color-btn;
+    &:hover {
+
+    }
+}
+// End Request Call Button style
+
+// Start Clients Section style
+.clients {
+    margin-bottom: 90px;
+
+    .row-bg {
+        background-color: #53354a;
+    }
+
+    .carousel-indicators-custom {
+        width: 30%;
+        left: 69%;
+    }
+
+    .comment {
+        padding: 50px 5% 0 15%;
+
+        .comment-text {
+            margin-bottom: 20px;
+            font-family: $font-regular;
+            font-size: rem(36);
+            line-height: rem(42);
+            color: white;
+        }
+
+        .client-name {
+            font-family: $font-regular;
+            font-size: rem(14);
+            line-height: rem(21);
+            color: white;
+        }
+    }
+}
+// End Clients Section style
